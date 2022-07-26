@@ -20,6 +20,8 @@ namespace denemelerim
             musteriManager.musteriEkle(musteri1);
             musteriManager.musteriSil(musteri1);
             musteriManager.musteriSil(musteri1);
+           // Console Ekranın da kullanıcı bir kuşa basana kadar Console açık kalmasını sağlar.
+            Console.ReadKey();
         }
     }
 }
